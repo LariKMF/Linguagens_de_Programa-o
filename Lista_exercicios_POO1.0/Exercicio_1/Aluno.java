@@ -16,8 +16,39 @@ public class Aluno {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public void getNome(String nome) {
-        this.nome = nome;
+    public String getNome() {
+        this.nome;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    public void getEmail(String email) {
+        this.email = email;
+    }
+    public void setInteligente(boolean inteligente) {
+        this.inteligente = inteligente;
+    } 
+    public boolean getInteligente() {
+        return this.inteligente;
+    }
+    public void setNivelDeSono(int nivel_sono) {
+        this.nivel_sono = nivel_sono;
+    }
+     public int getNivelDeSono() {
+        return this.nivel_sono;
+    }
+    public void setPiscandoLento(boolean piscando_lento) {
+        this.piscando_lento = piscando_lento;
+    }
+    public boolean getPiscandoLento() {
+        return this.piscando_lento;
     }
 
+    public void dormirNaAula() {
+        System.out.println("O aluno dorme na aula!");
+    }
+
+    public void fingirEstudar(){
+        System.out.println("O aluno finge estudar!");
+    }
 }
